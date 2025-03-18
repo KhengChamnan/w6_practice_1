@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'post_repository.dart';
 import '../model/post.dart';
 import 'package:http/http.dart' as http;
-import '../model/post_dto.dart';
+import '../model/dtos/post_dto.dart';
 
 class HttpPostRepository extends PostRepository {
   //convet json to postdto object then to post object 
